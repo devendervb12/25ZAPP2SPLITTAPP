@@ -1,0 +1,14 @@
+<core:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
+		controllerName="view.SplitApp" xmlns:html="http://www.w3.org/1999/xhtml">
+	<SplitApp>
+	   <masterPages>
+	      <mvc:XMLView viewName="view.LinkPage"/>
+	   </masterPages>
+	   
+	   
+	   <detailPages>
+	         <mvc:XMLView viewName="view.RegistrationDetailPage" id="idRegDtl"/>    
+	         <mvc:XMLView viewName="view.WorkExperience" id="idWrkExp"/>
+	   </detailPages>
+	</SplitApp>
+</core:View>
